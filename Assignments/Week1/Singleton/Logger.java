@@ -1,4 +1,4 @@
-package Singleton;
+package Assignments.Week1.Singleton;
 public class Logger {
     private static Logger instance;
 
