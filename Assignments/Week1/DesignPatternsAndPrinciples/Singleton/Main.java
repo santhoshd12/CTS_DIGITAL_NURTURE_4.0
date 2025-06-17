@@ -1,4 +1,4 @@
-package Assignments.Week1.Singleton;
+package Assignments.Week1.DesignPatternsAndPrinciples.Singleton;
 
 public class Main {
     public static void main(String[] args) {
