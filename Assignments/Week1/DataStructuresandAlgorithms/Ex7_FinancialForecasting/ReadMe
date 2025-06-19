@@ -1,0 +1,76 @@
+# 💰 Financial Forecasting Tool
+
+## 📌 Overview
+
+This Java application calculates the **future value of an investment** using two approaches:
+- ✅ Recursive calculation
+- ✅ Iterative calculation
+
+The tool uses the standard compound interest formula:
+
+Future Value = P * (1 + r)^n
+
+Where:
+- `P` is the initial principal (investment)
+- `r` is the annual growth rate
+- `n` is the number of years
+
+---
+
+## 🗂 Folder Structure
+
+Assignments/
+└── Week1/
+└── DataStructuresandAlgorithms/
+└── Ex3_FinancialForecast/
+└── FinancialForecast.java
+
+
+---
+
+## 🔧 How to Run
+
+1. Open the project in your preferred Java IDE (Eclipse, IntelliJ, or VS Code).
+2. Go to `FinancialForecast.java`
+3. Run the `main()` method.
+
+---
+
+## 💡 Features
+
+- Calculates the future value using both **recursion** and **iteration**
+- Compares both results
+- Demonstrates the concept of **recursive functions** in finance
+
+---
+
+## 🧪 Sample Output
+
+Future Value (Recursive): 12762.82
+Future Value (Iterative): 12762.82
+
+
+---
+
+## 📥 Input Values (inside code)
+
+- Initial Investment: ₹10,000
+- Growth Rate: 5% annually
+- Forecast Period: 5 years
+
+You can easily modify these values in the `main()` method to test different scenarios.
+
+---
+
+## 📈 Future Enhancements (Optional)
+
+- Support user input or input from files
+- Add monthly or quarterly compounding
+- Visual graphs for growth trends
+
+---
+
+## 👨‍💻 Author
+
+Santhosh D  
+Java | Data Structures | Finance Simulations
