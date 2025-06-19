@@ -1,0 +1,88 @@
+# 🔒 Singleton Design Pattern – Logger Example
+
+## 📌 Overview
+
+This Java project demonstrates the **Singleton Design Pattern** using a custom `Logger` class.
+
+The **Singleton Pattern** ensures that only **one instance** of a class is created throughout the application's lifecycle, providing a **global access point** to it.
+
+---
+
+## 🧠 Use Case
+
+In this example:
+- `Logger` is designed to log messages.
+- Only **one Logger instance** is ever created.
+- Ensures centralized control over logging behavior.
+
+---
+
+## 🗂 Folder Structure
+
+Assignments/
+└── Week1/
+└── DesignPatternsAndPrinciples/
+└── Ex1_Singleton/
+├── Logger.java
+└── Main.java
+
+
+---
+
+## 💡 Key Classes
+
+### `Logger.java`
+- Contains a `private static Logger instance` field.
+- Constructor is **private** to prevent external instantiation.
+- The `getInstance()` method checks if the instance is null and creates it if needed (lazy initialization).
+- `print(String message)` method simulates logging.
+
+### `Main.java`
+- Demonstrates the use of the singleton:
+  - Retrieves two references to `Logger`
+  - Prints logs
+  - Verifies that both references point to the **same object**
+
+---
+
+## 🧪 Sample Output
+
+Logger created.
+First log
+Second log
+true
+
+
+✔ `true` confirms both variables (`logger1` and `logger2`) refer to the **same Singleton instance**.
+
+---
+
+## 🚀 How to Run
+
+1. Open the project in your Java IDE (IntelliJ, Eclipse, etc.).
+2. Navigate to `Main.java`.
+3. Run the `main()` method.
+
+---
+
+## 🧰 Real-World Use Cases
+
+- Logging systems
+- Configuration managers
+- Cache controllers
+- Database connection pools
+
+---
+
+## 🛠️ Possible Enhancements
+
+- Make it **thread-safe** using synchronization.
+- Add **log levels** (INFO, DEBUG, ERROR).
+- Write logs to a file.
+
+---
+
+## 👨‍💻 Author
+
+Santhosh D  
+Java | OOP | Design Patterns
