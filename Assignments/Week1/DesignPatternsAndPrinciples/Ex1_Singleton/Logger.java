@@ -1,4 +1,4 @@
-package Assignments.Week1.DesignPatternsAndPrinciples.Singleton;
+package Assignments.Week1.DesignPatternsAndPrinciples.Ex1_Singleton;
 public class Logger {
     private static Logger instance;
 

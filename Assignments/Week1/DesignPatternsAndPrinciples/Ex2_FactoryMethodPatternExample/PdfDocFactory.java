@@ -1,4 +1,4 @@
-package Assignments.Week1.DesignPatternsAndPrinciples.FactoryMethodPatternExample;
+package Assignments.Week1.DesignPatternsAndPrinciples.Ex2_FactoryMethodPatternExample;
 
 
 public class PdfDocFactory extends DocumentFactory{
