@@ -1,0 +1,98 @@
+# 🏭 Factory Method Pattern – Document Generator
+
+## 📌 Overview
+
+This Java project demonstrates the **Factory Method Design Pattern** by simulating a **Document Creation System**.
+
+The Factory Method allows the creation of objects **without specifying their exact class**, promoting flexibility and scalability.
+
+---
+
+## 🎯 Objective
+
+- Create documents (Word, PDF, Excel) using a **factory structure**
+- Abstract the instantiation logic to improve maintainability and scalability
+
+---
+
+## 🧠 Key Concepts
+
+- **Factory Method Pattern** delegates the object creation logic to subclasses.
+- Promotes **Open/Closed Principle** – code is open for extension, closed for modification.
+- Avoids tight coupling between the client and object types.
+
+---
+
+## 🗂 Project Structure
+
+Assignments/
+└── Week1/
+└── DesignPatternsAndPrinciples/
+└── Ex2_FactoryMethodPatternExample/
+├── Main.java
+├── Document.java
+├── DocumentFactory.java
+
+
+---
+
+## 💡 Class Overview
+
+### `Document` (Interface)
+- Declares common methods: `open()` and `close()`
+
+### `WordDocument`, `PdfDocument`, `ExcelDocument` (Implementations)
+- Concrete classes for each type of document
+
+### `DocumentFactory` (Abstract Class)
+- Declares the method `createDocument()`
+
+### `WordDocFactory`, `PdfDocFactory`, `ExcelDocFactory`
+- Subclasses that return specific document types
+
+### `Main.java`
+- Client class that uses factories to create and operate on documents without knowing their exact types
+
+---
+
+## 🧪 Sample Output
+
+Word Document opened.
+PDF Document opened.
+Excel Document opened.
+Closing all documents...
+Word Document closed.
+PDF Document closed.
+Excel Document closed.
+
+
+---
+
+## 🚀 How to Run
+
+1. Open the project in your Java IDE (Eclipse, IntelliJ, etc.)
+2. Navigate to `Main.java`
+3. Run the `main()` method
+
+---
+
+## ✅ Benefits
+
+- Easy to add new document types (e.g., PowerPoint, Text) without changing existing logic
+- Promotes **extensibility** and **code separation**
+- Ideal for **plugin systems** or **multi-format document applications**
+
+---
+
+## 📌 Enhancement Ideas
+
+- Add user input to select document types
+- Save documents to file system
+- Add document-specific operations (edit, print, export)
+
+---
+
+## 👨‍💻 Author
+
+Santhosh D  
+Java | Design Patterns | Software Architecture
