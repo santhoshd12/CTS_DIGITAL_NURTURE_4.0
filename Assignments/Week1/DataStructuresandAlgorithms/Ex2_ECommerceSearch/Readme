@@ -1,0 +1,72 @@
+# E-Commerce Product Search
+
+## 📌 Overview
+This project implements a basic product search functionality using two classic algorithms:
+- Linear Search
+- Binary Search
+
+The `Product` class models each item with:
+- `productId`
+- `productName`
+- `category`
+
+---
+
+## 🔍 How It Works
+
+### Linear Search
+Searches each product one-by-one until it finds a match.
+- **Works on unsorted array**
+- **Time Complexity: O(n)**
+
+### Binary Search
+Works on a **sorted array**, repeatedly dividing the search space in half.
+- **Much faster: O(log n)**
+
+---
+
+## 📂 Project Structure
+
+Assignments/
+└── Week1/
+└── DataStructuresandAlgorithms/
+└── Ex2_ECommerceSearch/
+├── Product.java
+├── Search.java
+└── Ex2_EcommerceSearchFunction.java
+
+
+---
+
+## 🚀 How to Run
+
+1. Open in any Java IDE (e.g., IntelliJ, Eclipse)
+2. Run `Ex2_EcommerceSearchFunction.java`
+3. Output will display the result of both search algorithms.
+
+---
+
+## 📊 Sample Output
+
+Linear Search: [103, Mobile, Electronics]
+Binary Search: [103, Mobile, Electronics]
+
+
+---
+
+## 🧠 Complexity Comparison
+
+| Search Type     | Best | Average | Worst |
+|------------------|------|---------|--------|
+| Linear Search     | O(1) | O(n)    | O(n)   |
+| Binary Search     | O(1) | O(log n)| O(log n)|
+
+---
+
+## 📌 When to Use What?
+
+| Case                                  | Use Search Type     |
+|---------------------------------------|---------------------|
+| Data is unsorted                      | Linear Search       |
+| Data is sorted                        | Binary Search       |
+| Performance critical, large datasets | Binary / HashMap     |
