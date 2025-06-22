@@ -1,0 +1,15 @@
+futureValueRecursive(double principal, double rate, int years)
+
+    Time Complexity: O(n)
+    → Makes one recursive call per year (n = years).
+
+    Space Complexity: O(n)
+    → Due to the recursion call stack, it uses one stack frame per call.
+
+ futureValueIterative(double principal, double rate, int years)
+
+    Time Complexity: O(n)
+    → Executes a loop n times, once per year.
+
+    Space Complexity: O(1)
+    → Uses only a fixed amount of space regardless of n.

@@ -1,4 +1,4 @@
-package Assignments.Week1.Additional_Programs.DesignPatternsAndPrinciples.Builder_Pattern;
+package Assignments.Week1.Additional_Programs.DesignPatternsAndPrinciples.Ex3_Builder_Pattern;
 
 public class Computer {
     private String cpu;

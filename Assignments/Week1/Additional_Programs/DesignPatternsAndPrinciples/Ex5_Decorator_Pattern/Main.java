@@ -1,4 +1,4 @@
-package Assignments.Week1.Additional_Programs.DesignPatternsAndPrinciples.Decorator_Pattern;
+package Assignments.Week1.Additional_Programs.DesignPatternsAndPrinciples.Ex5_Decorator_Pattern;
 
 public class Main {
     public static void main(String[] args) {

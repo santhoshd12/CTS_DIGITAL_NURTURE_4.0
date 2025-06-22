@@ -1,0 +1,39 @@
+Time Complexity Analysis
+    Operation	What Happens	Time Complexity
+    Add	Insert at the next empty index (end of array)	O(1) (Constant Time)
+    Search	Check each element one by one until found	O(n) (Linear Time)
+    Traverse	Visit and display all elements one by one	O(n) (Linear Time)
+    Delete	Find the element, then shift remaining elements left	O(n) (Linear Time)
+Explanation:
+
+    Add is fast because we simply place the new employee at employees[count].
+
+    Search is linear because we might need to check all employees.
+
+    Traverse always goes through every element → linear.
+
+    Delete requires searching (O(n)) + shifting elements (up to O(n)), so total is still O(n).
+
+ Limitations of Arrays
+    Limitation	Explanation
+    Fixed Size	You must declare array size in advance (e.g., new Employee[100]). If full, you can’t add more employees.
+    Inefficient Deletion	Deleting requires shifting all elements after the deleted one to fill the gap.
+    No Built-in Flexibility	Arrays don't resize automatically. You can't "insert in middle" efficiently.
+    No Dynamic Growth	Once full, you must manually create a bigger array and copy data.
+ When to Use Arrays
+
+Use arrays when:
+
+    The number of items is known and fixed.
+
+    You need fast access by index (O(1)).
+
+    You’re working with simple, small datasets.
+
+    You don’t expect frequent insertions/deletions in the middle.
+
+ Better Alternatives for Real Systems
+Use this instead...	When...
+ArrayList<Employee>	You want dynamic resizing and easier management.
+HashMap<Integer, Employee>	You want faster search by ID (O(1) average case).
+LinkedList<Employee>	You frequently insert/delete in the middle.

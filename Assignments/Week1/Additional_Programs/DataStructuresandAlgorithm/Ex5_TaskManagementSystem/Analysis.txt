@@ -1,0 +1,34 @@
+
+ Understand Linked Lists
+Types of Linked Lists:
+Type	Description
+    Singly Linked List	Each node points to the next node only. One-way traversal.
+    Doubly Linked List	Each node has references to both next and previous nodes. Two-way traversal.
+
+
+
+Time Complexity Analysis
+-------------------------------------
+Operation	    Time Complexity
+-------------------------------------
+Add (at end)	    O(n)
+Search	            O(n)
+Traverse	        O(n)
+Delete	            O(n)
+--------------------------------------
+
+ Advantages of Linked Lists over Arrays
+
+    Dynamic Size	Grows/shrinks as needed, no fixed size like arrays.
+    Efficient Deletion	Deleting a node (once found) is O(1), no need to shift elements like arrays.
+    Efficient Insertion	Can insert at any position without shifting elements.
+    Memory Utilization	Uses memory as needed without allocating a fixed block like arrays.
+ When to Use Linked Lists
+
+Use a linked list when:
+
+    The number of tasks can change frequently.
+
+    You need frequent insertions and deletions.
+
+    You don’t need random access (use arrays for fast index-based access).
